@@ -44,113 +44,113 @@
             <div class="main-page-right">
 
 
-                <div id="contact_info" class="main-page-right-inner">
+        <div id="questions" class="main-page-right-inner">
+        <form method="post" action="https://formlinx.onrender.com/api/form/1k9UjGuk5">
+            <div class="input-group">
 
+                <h3>Personal Info</h3>
 
-                    <div class="i-g">
+                <div class="input-group">
 
-                        <p>Client Name: <span class="required">*</span></p>
+                        <label>Client Name: <span class="required">*</span></label>
 
-                        <input autocomplete="off" type="text" name="name" id="client_name">
-
-                    </div>
-
-                    <div class="i-g">
-
-                        <p>Company Name : </p>
-
-                        <input autocomplete="off" type="text" name="company_name" id="company_name">
+                        <input autocomplete="off" type="text" name="Client Name" required>
 
                     </div>
 
-                    <div class="i-g">
+                    <div class="input-group">
 
-                        <p>Client Position : </p>
+                        <label>Company Name : </label>
+
+                        <input autocomplete="off" type="text" name="Company_Name" id="company_name">
+
+                    </div>
+
+                    <div class="input-group">
+
+                        <label>Client Position : </label>
 
                         <input autocomplete="off" type="text" name="client_position" id="client_position">
 
                     </div>
 
-                    <div class="i-g">
+                    <div class="input-group">
 
-                        <p>Contact Phone : </p>
+                        <label>Contact Phone : </label>
 
                         <input autocomplete="off" type="number" name="contact_phone" id="contact_phone">
 
                     </div>
 
-                    <div class="i-g">
+                    <div class="input-group">
 
-                        <p>Contact Email : <span class="required">*</span></p>
+                        <label>Contact Email : <span class="required">*</span></label>
 
                         <input autocomplete="off" type="text" name="contact_email" id="contact_email">
 
                     </div>
 
-                    <div class="proceed-btn">
-                        <button>Continue > </button>
-                    </div>
 
+                <h3 style="margin-bottom: 20px;margin-top: 20px;">Questions</h3>
 
-
-                </div>
-                <div id="questions" class="main-page-right-inner">
-        <form>
-            <div class="input-group">
                 <label for="q1">1. Do You Want To Build a New Website or Redesign an Existing One?</label>
-                <select id="q1">
+                <select required name="Question_1" id="q1">
                     <option value="New">New Website</option>
                     <option value="Redesign">Redesign Existing Website</option>
                 </select>
             </div>
             <div class="input-group">
                 <label for="q2">2. Describe Your Business in Few Sentences.</label>
-                <textarea autocomplete="off" id="q2"></textarea>
+                <textarea name="Question_2" autocomplete="off" id="q2"></textarea>
             </div>
             <div class="input-group">
                 <label for="q3">3. What Services Do You Offer?</label>
-                <textarea autocomplete="off" id="q3"></textarea>
+                <textarea name="Question_3" autocomplete="off" id="q3"></textarea>
             </div>
             <div class="input-group">
                 <label for="q4">4. Who is Your Target Audience?</label>
-                <textarea autocomplete="off" id="q4"></textarea>
+                <textarea name="Question_4" autocomplete="off" id="q4"></textarea>
             </div>
             <div class="input-group">
                 <label for="q5">5. What Makes Your Services Unique?</label>
-                <textarea autocomplete="off" id="q5"></textarea>
+                <textarea name="Question_5" autocomplete="off" id="q5"></textarea>
             </div>
             <div class="input-group">
                 <label for="q6">6. List any websites of competitors or similar businesses.</label>
-                <textarea autocomplete="off" id="q6"></textarea>
+                <textarea name="Question_6" autocomplete="off" id="q6"></textarea>
             </div>
             <div class="input-group">
                 <label for="q7">7. List the essential features or functionalities you want on the website</label>
-                <textarea autocomplete="off" id="q7"></textarea>
+                <textarea name="Question_7" autocomplete="off" id="q7"></textarea>
             </div>
             <div class="input-group">
                 <label for="q8">8. Do you have existing logos, color schemes, or branding guidelines?</label>
-                <select id="q8">
+                <select name="Question_8" required id="q8">
                     <option value="Yes">Yes</option>
                     <option value="No">No</option>
                 </select>
             </div>
             <div class="input-group">
                 <label for="q9">9. Do you have content ready for the website, including text, images, and videos?</label>
-                <select id="q9">
+                <select required name="Question_9" id="q9">
                     <option value="Yes">Yes</option>
                     <option value="No">No</option>
                 </select>
             </div>
             <div class="input-group">
                 <label for="q10">10. What is Your Budget?</label>
-                <input type="text" id="q10">
+                <input name="Question_10" required type="text" id="q10">
             </div>
             <div class="input-group">
                 <label for="q11">11. What is Your Ideal Launch Date?</label>
-                <input type="text" id="q11">
+                <input required name="Question_11" type="text" id="q11">
             </div>
             <div class="proceed-btn">
-                <button type="submit">Submit Questionnaire ></button>
+                <button id="submit" type="submit">Submit Questionnaire ></button>
+
+                <div class="powered">
+                    <p>Powered By <a href="https://formlinx.onrender.com" target="_blank" title="Formlinx Form Handler">FORMLINX</a></p>
+                </div>
             </div>
         </form>
     </div>
@@ -174,7 +174,5 @@
         </div>
 
     </div>
-
-
 </body>
 </html>
